@@ -17,7 +17,6 @@ class App extends Component {
           <Front />
           <Socials />
           <Firstslides />
-          <SecondBackground />
       </div>
     );
   }
