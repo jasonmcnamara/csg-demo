@@ -1,0 +1,30 @@
+.Navbar {
+    background-color: rgba(47, 46, 46, 1);
+    color: white;
+    width: 100%;
+    z-index: 15;
+    position: fixed;
+}
+
+.Navbar ul{
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0;
+    padding: 20px 10%;
+}
+
+.Navbar ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: monospace;
+    font-size: 15px;
+    transition: color .1s ease;
+    margin: 0;
+}
+
+.Navbar ul li a:hover {
+    color: grey;
+}

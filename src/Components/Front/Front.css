@@ -1,0 +1,136 @@
+.Front {
+    /* background-color: white; */
+    /* width: 618px; */
+    width: 60%;
+    margin: 0 auto;
+    padding-top: 125px;
+    /* position: relative; */
+    /* top: 125px; */
+    /* background-color: transparent; */
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.Front .csgLogo {
+    padding-left: 24%;
+    display: inline-block;    
+}
+
+@media(max-width: 1004px){
+    .Front .csgLogo {
+        padding-left: 0;
+    }
+}
+
+.Front .frontLinks {
+    width: 150px;
+}
+
+.Front .oneTalk, .jetPack {
+    color: white;
+    font-weight: bold;
+    font-family:  'Roboto';
+    text-decoration: none;
+    display: inline-block;
+    width: 150px;
+    height: 40px;
+    line-height: 50px;
+    text-align: center;
+    background-color: rgba(165, 162, 162, 0.719);
+    transition: all 0.4s ease;
+    box-shadow: 0 5px 5px  0 rgba(0, 0, 0, 0.637);
+    border: grey 1px solid;
+}
+
+.Front .oneTalk {
+    position: relative;
+    z-index: 10;
+}
+
+.Front .jetPack {
+    position: relative;
+    z-index: 9;
+    top: 1px;
+}
+
+.Front .oneTalk:hover, .jetPack:hover {
+    color: rgb(128, 0, 17);
+    background-color: white;
+}
+
+.Front .verizon {
+    background-color: white;
+    position: relative;
+    top: 3px;
+    height:50px;
+    border: rgb(138, 11, 11) solid 1px;
+}
+
+.Front .verizon img {
+    display: block;
+    margin: 0 auto;
+    padding-top: 7px;
+}
+
+.Front .slogan {
+    margin: 0 auto;
+    width: 90%;
+    /* height: 80px; */
+    padding:2%;
+    
+    background-color: rgba(0, 0, 0, 0.575);
+}
+
+.Front .slogan .topSlogan {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    font-size: 24px;
+}
+
+.Front .ultimate {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.Front .divider {
+    border: 1px solid white;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.Front .bottomSlogan {
+    text-align: center;
+    
+}
+
+.Front .bottomSlogan .sloganClick {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 18px;
+}
+
+.Front .getQuote {
+    text-align: center;
+    width: 100%;
+    background-color: white;
+    color: black;
+    line-height: 40px;
+    margin:0 auto;
+}
+
+.Front .quoteMe {
+    display: inline-block;
+    border: brown 2px solid;
+    height: 45px;
+    color: brown;
+    font-weight: bold;
+    line-height: 50px;
+    /* position: relative; */
+    background-color: white;
+    text-decoration: none;
+    /* top: 2px; */
+    padding: 0 2%;
+}

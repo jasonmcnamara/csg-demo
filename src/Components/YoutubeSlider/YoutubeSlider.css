@@ -1,0 +1,71 @@
+.youtubeSlider {
+    width: 75%;
+    /* height: 680px; */
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+.youtubeSlider .leftArrow {
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    color: grey;
+}
+
+.youtubeSlider .leftArrow:hover {
+    cursor: pointer;
+}
+
+.youtubeSlider .rightArrow {
+    font-size: 50px;
+    position: absolute;
+    top: 40%;
+    /* left: 950px; */
+    left: 90%;
+    color: grey;
+}
+
+.youtubeSlider .rightArrow:hover {
+    cursor: pointer;
+}
+
+.youtubeSlider .slideBox {
+    width: 90%;
+    margin:30px auto;
+    margin-bottom: 0;
+}
+
+.youtubeSlider .slideCapWrapper {
+    width: 90%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.youtubeSlider .slideBox .slideCapWrapper iframe {
+    min-width:300px;
+    width:60%;
+    height: auto;
+}
+
+.youtubeSlider .caption {
+    text-align: center;
+    width: 20%;
+    min-width: 200px;
+    font-size: 25px;
+}
+
+.youtubeSlider .caption .captionLine {
+    width: 25px;
+    border-top: black solid 1px;
+    margin: 0 auto;
+}
+
+.youtubeSlider .captionParagraph {
+    font-size: 14px;
+    line-height: 25px;
+    padding: 0 10%;
+}

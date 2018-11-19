@@ -1,0 +1,14 @@
+.socials {
+    color: white;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-content: center;
+    width: 25%;
+    margin: 0 auto;
+    padding-top: 2%;
+}
+
+.socials img{
+    padding:10% .5%;
+}
