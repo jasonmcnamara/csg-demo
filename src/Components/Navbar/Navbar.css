@@ -6,25 +6,71 @@
     position: fixed;
 }
 
-.Navbar ul{
+.navbarUl{
     list-style-type: none;
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: space-around;
+    justify-content: space-between;
     margin: 0;
     padding: 20px 10%;
 }
 
-.Navbar ul li a{
+.navbarUl li {
+    padding: 1%;
+}
+
+/* .navbarUl li {
+    border-right: solid 1px white;
+    padding-right: 2%;
+    padding-left: 2%;
+}
+
+.navbarUl li:nth-last-child(1) {
+    border-right: none;
+} */
+
+.navbarUl li a{
     color: white;
     text-decoration: none;
     font-family: monospace;
-    font-size: 15px;
+    /* font-size: 15px; */
     transition: color .1s ease;
     margin: 0;
+    font-size: .9rem;
 }
 
-.Navbar ul li a:hover {
+.navbarUl li a:hover {
     color: grey;
+}
+
+.slideNavbutton {
+    display: inline-block;
+    margin-left: 90%;
+    font-size: 2.5em;
+    font-weight: bold;
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none;
+    cursor: pointer;
+}
+
+/* .Slidenav {
+    background-color: rgb(41, 38, 38);
+    position: absolute;
+} */
+
+@media (max-width: 500px) {
+    .navbarUl {
+        display: none;
+    }
+}
+
+@media (min-width: 500px) {
+    .slideNavbutton {
+        display: none;
+    }
 }

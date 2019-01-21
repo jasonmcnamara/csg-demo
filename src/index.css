@@ -1,3 +1,7 @@
+* {
+  box-sizing: border-box;
+}
+
 body {
   margin: 0;
   padding: 0;
@@ -22,7 +26,7 @@ code {
 
 .App {
   width: 100%;
-  background-image: url('./Images/background.webp');
+  background-image: url('./Images/background.png');
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;

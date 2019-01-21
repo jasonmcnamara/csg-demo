@@ -1,9 +1,9 @@
 import React from 'react';
 import './Socials.css';
-import Linkdin from '../../Images/linkdin.webp';
-import Fb from '../../Images/fb.webp';
-import Tw from '../../Images/tw.webp';
-import Inst from '../../Images/inst.webp';
+import Linkdin from '../../Images/linkdin.png';
+import Fb from '../../Images/fb.png';
+import Tw from '../../Images/tw.png';
+import Inst from '../../Images/inst.png';
 
 const Socials = () => {
     return(

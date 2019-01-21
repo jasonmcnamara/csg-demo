@@ -1,7 +1,7 @@
 import React from 'react';
 import './Front.css';
-import csgLogo from '../../Images/csgLogo.webp';
-import verizon from '../../Images/verizon.webp';
+import csgLogo from '../../Images/csgLogo.png';
+import verizon from '../../Images/verizon.jpg';
 
 const Front = () => {
     return(
